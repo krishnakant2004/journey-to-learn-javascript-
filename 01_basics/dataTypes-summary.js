@@ -12,7 +12,7 @@ const myObj = {
     age : 22,
     profession : "App Developer"
 }
-
+console.log(typeof myArr) //object
 console.table([typeof myArr , typeof myObj , myArr , myObj])
 
 const myFun = function(){

@@ -10,7 +10,7 @@
 //null -> is a value but empty(nothing inside)
 //undefine => declare but not give a value
 
-//symbol => for unique ness
+//symbol => for uniqueness
 
 // object
 

@@ -46,3 +46,5 @@ console.log(Math.random())
 const a = 3
 const b = 10
 console.log(Math.floor(Math.random() * (b - a + 1)) + a);
+
+console.log(Number.MIN_VALUE)
