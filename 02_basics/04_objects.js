@@ -1,19 +1,19 @@
-// const person = {
-//     name : "Krishnakant Dinkar",
-//     age : 22,
-//     rollNo : 57,
-//     DOB :new Date(2002 , 5 , 17)
-// }
+const person = {
+    name : "Krishnakant Dinkar",
+    age : 22,
+    rollNo : 57,
+    DOB :new Date(2002 , 5 , 17)
+}
 
-// // keys, values , entries
+// keys, values , entries
 
-// console.log(Object.keys(person))
-// console.log(Object.values(person))
-// console.log(Object.entries(person))
+console.log(Object.keys(person))
+console.log(Object.values(person))
+console.log(Object.entries(person))
 
-// entries = Object.entries(person);
-// keys = entries.map((ele , idx) => ele[0]);
-// console.log(keys)
+entries = Object.entries(person);
+keys = entries.map((ele , idx) => ele[0]);
+console.log(keys)
 
 
 // // 5. Nested Objects
@@ -33,26 +33,26 @@
 // // +++++++++++++++++++++++++ Shorthand and ES6 Features ++++++++++++++++++++++++
 // // Property shorthand
 
-// const Username = "krishna"
-// const age  = 22
-// const person1 = {Username , age } // same as { name: name, age: age }
-// console.log(person1)
+const Username = "krishna"
+const age  = 22
+const person1 = {Username , age } // same as { name: name, age: age }
+console.log(person1)
 
 // +++++++++++++++++++++++++++++++++++++++//Method shorthand
 
-// const person3 = {
-//     name : "Aman",
-//     age : 22,
-//     greeting(){
-//         console.log(`hello my self ${this.name}`)
-//     },
-//     getAge(){
-//         return this.age
-//     }
-// }
+const person3 = {
+    name : "Aman",
+    age : 22,
+    greeting(){
+        console.log(`hello my self ${this.name}`)
+    },
+    getAge : function(){
+        return this.age
+    }
+}
 
-// person3.greeting()
-// console.log(person3.getAge())
+person3.greeting()
+console.log(person3.getAge())
 
 
 // +++++++++++++++++++++++++++== Object Destructuring==+++++++++++++++
